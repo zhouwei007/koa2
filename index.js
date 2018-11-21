@@ -25,4 +25,4 @@ app.use(async (ctx, next) => {
   }*/
   ctx.response.body = 'zhoooo'
 })
-app.listen(4000);
+app.listen(22);
