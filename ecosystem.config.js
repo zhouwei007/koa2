@@ -39,12 +39,12 @@ module.exports = {
       port:22,
       ref: 'origin/master',
       repo: 'git@github.com:zhouwei007/koa2.git',
-      path: '/www/production',
+      path: '/www/test',
       ssh_options: "StrictHostKeyChecking=no",// sshkey校验取消
       env:{
         "NODE_ENV":'production'
       },
-      'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production'
+      'post-deploy': 'npm install && pm2 reload ecosystem.config.js '
     }
   }
 };
