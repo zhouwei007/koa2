@@ -10,7 +10,7 @@ app.use(async (ctx, next) => {
 
     // next();
   }*/
-  ctx.response.body = 'heheheh';
+  ctx.response.body = 'lll';
   console.log('环境变量',process.env.NODE_ENV)
 })
 app.listen(2222);
