@@ -32,7 +32,6 @@ module.exports = {
       },
     }
   ],
-
   deploy: {
     production: {
       user: 'root',
